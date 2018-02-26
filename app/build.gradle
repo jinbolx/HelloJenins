@@ -94,7 +94,7 @@ android {
         }
     }
     //修改生成的apk名字
-    applicationVariants.all { variant ->
+    /*applicationVariants.all { variant ->
         variant.outputs.all{ output ->
             def newName
             def timeNow
@@ -120,7 +120,7 @@ android {
             outputFileName = new File(outDirectory+"/"+timeNow, newName)
 
         }
-    }
+    }*/
 }
 
 dependencies {
