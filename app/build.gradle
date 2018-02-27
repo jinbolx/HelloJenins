@@ -1,6 +1,5 @@
 apply plugin: 'com.android.application'
 
-/*
 android {
     compileSdkVersion 26
     defaultConfig {
@@ -18,8 +17,7 @@ android {
         }
     }
 }
-*/
-def getDate() {
+/*def getDate() {
     def date = new Date()
     def formattedDate = date.format('yyyyMMddHHmm')
     return formattedDate
@@ -92,7 +90,7 @@ android {
             mavenCentral()
             maven { url "https://jitpack.io" }
         }
-    }
+    }*/
     //修改生成的apk名字
     /*applicationVariants.all { variant ->
         variant.outputs.all{ output ->
@@ -121,7 +119,7 @@ android {
 
         }
     }*/
-}
+
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
